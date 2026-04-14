@@ -7,5 +7,9 @@ public class S0308 {
 		map.put("people","사람");
 		map.put("baseball","야구");
 		System.out.println(map.keySet());
+		//System.out.println(map.remove("people")); // "사람" 출력
+		System.out.println(map.size());
+		System.out.println(map.containsKey("people"));  // true 출력
+        System.out.println(map.get("people")); // "사람" 출력
 	}
 }
