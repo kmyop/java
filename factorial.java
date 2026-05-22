@@ -7,7 +7,7 @@ public class factorial {
 		int n;
 
 		while(true){
-			System.out.println("양수 입력")
+			System.out.println("양수 입력");
 			n = sc.nextInt();
 			if(n>0) {
 				break;

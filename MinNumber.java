@@ -12,7 +12,7 @@ public class MinNumber {
 		
 		int min = a;
 		if(b<min) min = b;
-		if(c<min) mic = c;
+		if(c<min) min = c;
 		System.out.println("최소값:"+min);
 	}
 }
