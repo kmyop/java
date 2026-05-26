@@ -19,7 +19,10 @@ public class NumberGame {
 			user = sc.nextInt();
 			count++;
 			
-			if(user>answer) {
+			if(user<10 || user > 99) {
+				System.out.println("다시입력");
+			
+			} else if(user>answer) {
 				System.out.println("정답은 더 작은 수");
 			} else if(user<answer) {
 				System.out.println("정답은 더 큰 수");
