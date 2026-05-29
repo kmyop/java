@@ -23,6 +23,23 @@ public class SquareStar {
 			}
 			System.out.println();
 		
-	}
+		}
+		
+		for(int i=0; i<num; i++) {
+			for(int j=num; j>i ; j--) {
+		
+				System.out.println("*");
+			}
+			System.out.println();
+		}
+		
+		for(int i=0; i<num; i++) {
+			for(int j=1; j>num-i ; j++) {
+		
+				System.out.println("");
+			}
+			for(int j=0; j<i+1;j++)
+			System.out.println("*");
+		}
 	}
 }
